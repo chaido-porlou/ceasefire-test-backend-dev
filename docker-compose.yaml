@@ -41,7 +41,7 @@ services:
     # build:
     #   context: .
     #   dockerfile: backend/Dockerfile
-    image: harbor.ceasefire.rid-intrasoft.eu/certh_marketplaces/backend:latest
+    image: harbor.ceasefire.rid-intrasoft.eu/certh_marketplaces/alerts-backend-dev:latest
     labels:
       io.portainer.accesscontrol.teams: /certh
     container_name: backend-alerts
